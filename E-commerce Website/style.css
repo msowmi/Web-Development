@@ -1,0 +1,316 @@
+#nav-bar
+{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+  height: 40px;
+  padding-left: 30px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: #b00b69!important;
+}
+.navbar
+{
+  background-color: #f7e6f0;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #46042a!important;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 16px;
+}
+#slider
+{
+  width: 100%;
+
+}
+.carousel-caption
+{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+#about
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+#about .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress-background
+{
+  border-radius: 16px;
+}
+.progress
+{
+  border-radius: 16px!important;
+  margin-bottom: 30px;
+}
+#services
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(255, 0, 0, 0.5)), url(service.png);
+  background-size: cover;
+  background-position: center;
+  color: #efefef!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#services h1
+{
+  text-align: center;
+  color: #efefef!important;
+  padding-bottom: 10px;
+}
+#services h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.services
+{
+  margin-top: 40px;
+}
+.icon
+{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+#services p
+{
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+.services .col-md-3:hover
+{
+  background: #007bff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+#team
+{
+  background-image: url(back2.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+
+}
+h1
+{
+  text-align: center;
+  color:#555;
+  padding-bottom: 10px;
+}
+h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+
+}
+#team p
+{
+  font-family: cursive;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #21211e;
+}
+#promo
+{
+  background: #9bebd1;
+  background-size: cover;
+  text-align: center;
+
+}
+#promo p
+{
+  font-family: fantasy;
+  font-size: 30px;
+  padding-top: 30px;
+  color: #2c3331;
+
+}
+#price
+{
+  padding: 40px 0;
+  background-image:url(black.jpg);
+
+}
+#price h3
+{
+  color:#070b33;
+}
+#price h1
+{
+  color:#e5c3e6;
+}
+#price p
+{
+  color:#420313;
+}
+.single-price
+{
+  margin: 10px auto;
+  display:inline;
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  transition: 0.5s;
+  text-align: center;
+  font-family: monospace;
+}
+.single-price: hover
+{
+  box-shadow: 0 2px 20px #333;
+
+}
+.price-head
+{
+  background-color: #2196f3;
+  display: inline;
+  float: left;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+.price-head h3
+{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+#testimonials
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#testimonials.row
+{
+  margin-top: 30px;
+}
+.col-md-4
+{
+  margin: 40px auto;
+}
+.profile
+{
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+}
+
+.user
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile h4
+{
+  font-size: 20px;
+  margin-top: 15px;
+  color:#007bff;
+}
+#testimonials span
+{
+  font-size: 12px;
+  color: #333;
+}
+#testimonials blockquote
+{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+.profile
+{
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+#contact
+{
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+.contact-form
+{
+  padding: 15px;
+}
+.form-control
+{
+  border-radius: 10 !important;
+  border: none !important;
+}
+::placeholder
+{
+  color: #999 !important;
+
+}
+.follow
+{
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+.contact-info
+{
+  border-radius: 10 !important;
+  border: none !important;
+  font-family: cursive;
+}
+#footer
+{
+  background: #333;
+  color: #fff;
+  padding: 12px;
+}
