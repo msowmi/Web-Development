@@ -1,0 +1,43 @@
+#color-board {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    border-radius: 40px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+   background-image: url(bg3.jpg);
+   background-position:center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+#color-board >div {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+  border-radius: 40px;
+  box-shadow: 5px 10px;
+}
+container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  position:absolute;
+  bottom:0;
+
+  right:560px;
+}
